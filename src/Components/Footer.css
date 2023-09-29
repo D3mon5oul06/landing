@@ -1,0 +1,22 @@
+/* Footer.css */
+.footer-gray {
+    background-color: gray; /* Cambia "gray" por el color de fondo deseado */
+    padding: 20px; /* Añade espacio de relleno si es necesario */
+    color: white; /* Cambia el color del texto si es necesario */
+  }
+  
+  /* Estilos para el pie de página */
+.footer-gray {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Media query para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .footer-gray {
+      font-size: 14px; /* Ajusta el tamaño del texto para pantallas más pequeñas */
+    }
+  }
+  

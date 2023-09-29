@@ -1,0 +1,37 @@
+/* Estilos generales de navegación */
+nav {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    padding: 10px 0; /* Espaciado interior */
+  }
+  
+  ul {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centra los elementos de la lista */
+  }
+  
+  li {
+    display: inline-block; /* Muestra los elementos en línea */
+    margin-right: 20px; /* Espacio entre elementos */
+  }
+  
+  a {
+    text-decoration: none; /* Elimina la decoración de enlace predeterminada */
+    color: white; /* Color del texto de enlace */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 16px; /* Tamaño de fuente */
+  }
+  
+  /* Estilos para pantallas pequeñas (ajusta los valores según sea necesario) */
+  @media screen and (max-width: 768px) {
+    ul {
+      text-align: center;
+    }
+  
+    li {
+      display: block; /* Muestra los elementos uno debajo del otro en pantallas pequeñas */
+      margin: 10px 0; /* Espacio entre elementos */
+    }
+  }
+  

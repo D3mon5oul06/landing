@@ -1,0 +1,64 @@
+/* En tu archivo de estilos CSS (por ejemplo, InfoSection.css) */
+.curiosities-section {
+    display: flex; /* Utilizamos flexbox para alinear elementos horizontalmente */
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+  }
+  
+  .curiosity-image {
+    flex: 1; /* El 50% del ancho del contenedor para la imagen */
+    padding-right: 0px; /* Añade un espacio entre la imagen y el texto (ajusta según sea necesario) */
+  }
+  
+  .curiosity-text {
+    flex: 2; /* El 50% del ancho del contenedor para el texto */
+  }
+
+  /* Estilos para la sección de información */
+.info-section {
+    max-width: 900px; /* Ancho máximo para el contenido */
+    margin: 0 auto; /* Centrar en pantallas grandes */
+    padding: 10px; /* Espaciado interior */
+  
+    /* Estilos para pantallas pequeñas (ajusta los valores según sea necesario) */
+    @media screen and (max-width: 768px) {
+      padding: 10px; /* Reducir el espaciado en pantallas pequeñas */
+    }
+  
+    /* Estilos para la sección de curiosidades */
+    .curiosities-section {
+      display: flex; /* Mostrar elementos en línea */
+      flex-direction: column; /* Apilar elementos en pantallas pequeñas */
+  
+      /* Estilos para pantallas pequeñas (ajusta los valores según sea necesario) */
+      @media screen and (max-width: 768px) {
+        flex-direction: column; /* Apilar elementos en pantallas pequeñas */
+      }
+    }
+  
+    /* Estilos para la imagen de curiosidades */
+    .curiosity-image {
+      max-width: 100%; /* Ancho máximo para la imagen */
+    }
+  
+    /* Estilos para el texto de curiosidades */
+    .curiosity-text {
+      margin-top: 10px; /* Espaciado superior */
+    }
+
+    /* InfoSection.css */
+
+/* Estilo para la sección de curiosidades */
+.curiosities-section {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el contenido */
+    margin-bottom: 0px; /* Ajusta el margen inferior según tus necesidades */
+  }
+  
+  /* Estilo para el texto dentro de la sección de curiosidades */
+  .curiosity-text {
+    flex: 1; /* Hace que el texto ocupe el espacio restante */
+    padding-left: 20px; /* Añade espacio entre el texto y la imagen */
+  }
+  
+  }
+  

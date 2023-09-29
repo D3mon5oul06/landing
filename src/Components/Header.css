@@ -1,0 +1,44 @@
+/* Header.css */
+.header-gray {
+    background-color: gray; /* Cambia "gray" por el color de fondo deseado */
+    padding: 20px; /* Añade espacio de relleno si es necesario */
+    color: white; /* Cambia el color del texto si es necesario */
+    display: flex; /* Para permitir la alineación de elementos en fila */
+    align-items: center; /* Para alinear verticalmente los elementos en el centro */
+    justify-content: space-between; /* Para distribuir los elementos horizontalmente */
+  }
+  
+  #Logo {
+    margin-right: 10px; /* Ajusta el margen derecho para separar la imagen del texto */
+    max-height: 50px; /* Ajusta la altura máxima de la imagen si es necesario */
+  }
+  
+  #Logo img {
+    height: 100%; /* Ajusta la altura de la imagen para que se ajuste verticalmente */
+  }
+  
+  #Header {
+    display: flex; /* Para alinear el nombre del centro verticalmente */
+    align-items: center; /* Para centrar verticalmente el nombre */
+  }
+
+  /* Estilos para el encabezado */
+.header-gray {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: center; /* Centra verticalmente */
+  }
+  
+  /* Estilos para el logotipo */
+  #Logo {
+    margin-right: auto; /* Empujar el logotipo hacia la esquina izquierda */
+    margin-left: 20px; /* Agregar un pequeño espacio entre el logotipo y el título */
+    width: 100px; /* Ancho del logotipo (ajústalo según tus necesidades) */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+  
+  
